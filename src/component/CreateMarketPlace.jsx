@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 import { ethers } from "ethers";
 import MarketplaceDetails from "./MarketplaceDetails";
-import { writeContractFunction } from "./util";
-import { clearConfigCache } from "prettier";
+//import { writeContractFunction } from "./util";
+//import { clearConfigCache } from "prettier";
 
 const CreateMarketPlace = ({bspContract = {}, factoryContract, loggedInAccount}) =>{
 const [marketData, setMarketData] = useState(),
